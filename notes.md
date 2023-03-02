@@ -48,3 +48,28 @@ Rundenende (Buff aktiviert)
 | Link     | 5      | 2      | 2       | 2           | Attacke plus 1 bei bei direkt benachbarten Links |
 | Fluffy   | 3      | 2      | 2       | 2           | Kann sich auf allen Geländefeldern bewegen       |
 # Rückschlüsse auf Taktik
+# Implementierung
+## Spielfeld verarbeiten
+## Züge erstellen
+## Züge abspeichern
+uint (unsigned 32 Bit) Container für 25 Bit Datenspeicher.
+Erste Zeile gibt Feldnamen an
+Zweite Zeile Speichergröße
+Dritte Zeile Operation(en) zum erhalten der Werte
+| A/M        | oldX              | oldY              | newX              | newY              | priority     |
+|------------|-------------------|-------------------|-------------------|-------------------|--------------|
+| 1 Bit      | 4 Bit             | 4 Bit             | 4 Bit             | 4 Bit             | 8 Bit        |
+| & 0x100000 | & 0x0F00000 >> 16 | & 0x00F0000 >> 12 | & 0x000F000 >> 8  | & 0x0000F00 >> 4  | & 0x00000FF  |
+- A/M: Art des Befehls(Angriff oder Movement)
+- oldX: Position vor Aktion in x Richtung
+- oldY: Position vor Aktion in y Richtung
+- newX: Zielposition der Aktion in x Richtung
+- newY: Zielposition der Aktion in y Richtung
+- priority: Spielerinterner Zugablauf
+
+Sonderfälle:
+- Figur präferiert Zugvariante 5: A/M = 0 & alte Position = neue Position
+
+Liste mit uint wird nach Vergleich des letzten Bytes (Big-Endian Verarbeitung) sortiert (priority1 < priority2 < priority3 usw.)
+
+## Züge ausführen
