@@ -48,6 +48,23 @@ Rundenende (Buff aktiviert)
 | Link     | 5      | 2      | 2       | 2           | Attacke plus 1 bei bei direkt benachbarten Links |
 | Fluffy   | 3      | 2      | 2       | 2           | Kann sich auf allen Geländefeldern bewegen       |
 # Rückschlüsse auf Taktik
+
+Töten > Damage
+
+|Pummel|Taktik|
+|------|------------------------------------------------------------------------------------------------------------|
+| Bellie | |
+| Sneip | Schnell ausser range vom gegner bringen. Decken mit anderen Einheiten. Wenn mehrere, assault taktik|
+| Hoppel | Spontane Eingreiftruppe |
+| Wolli | Nah zum Gegner, Angriffsfläche bieten, schwache truppen mit körper shielden |
+| Spot | SOFORT ALLE AUF DEN BERG! (Anderweitig Nutzlos, kombinieren mit Sneips in Ecken um Fett weit zu schießen)  |
+| Czaremir | Offensiv stark mit range boost, sofort zurückziehen wenn Kill nächste Runde möglich wäre |
+| Bummz | Weit weg von friendlys. Notfalls direkt neben den Gegner Stellen. Im Endgame auf Range 1 Units zulaufen |
+| Link | Idealerweise alle Clustern, Mittiger Link macht am meisten Damage. Freien Weg für Schussbahn einplanen (evtl. Special Tactic für Link Map)|
+| Fluffy | |
+
+
+
 # Implementierung
 ## Spielfeld verarbeiten
 ## Züge erstellen
