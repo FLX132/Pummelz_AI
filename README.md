@@ -68,7 +68,16 @@ Töten > Damage
 | Link     | Idealerweise alle Clustern, Mittiger Link macht am meisten Damage. Freien Weg für Schussbahn einplanen (evtl. Special Tactic für Link Map) |
 | Fluffy   | Nur für eine Karte bis jetzt. Hit and Run auf unzugänglichen Feldern. Soll außerhalb von Sneips Range Runde beenden |
 
-
+# Gesamtkonzept
+|   |   |   |   |   |   |   |   |
+|---|---|---|---|---|---|---|---|
+|   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |
+|   |   |   |   |   |   |   |   |
 
 # Implementierung
 ## Spielfeld verarbeiten
