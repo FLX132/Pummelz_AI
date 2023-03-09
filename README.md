@@ -51,17 +51,22 @@ Rundenende (Buff aktiviert)
 
 Töten > Damage
 
-|Pummel|Taktik|
-|------|------------------------------------------------------------------------------------------------------------|
-| Bellie | |
-| Sneip | Schnell ausser range vom gegner bringen. Decken mit anderen Einheiten. Wenn mehrere, assault taktik|
-| Hoppel | Spontane Eingreiftruppe |
-| Wolli | Nah zum Gegner, Angriffsfläche bieten, schwache truppen mit körper shielden |
-| Spot | SOFORT ALLE AUF DEN BERG! (Anderweitig Nutzlos, kombinieren mit Sneips in Ecken um Fett weit zu schießen)  |
+|  Pummel  |                                                     Taktik                                                 |
+|----------|------------------------------------------------------------------------------------------------------------|
+| Bellie   | Blockiert Zugänge zu anderen Pummelz, bevorzugt hinter Wolli / schräg von Wolli (zweite Verteidigungslinie) |
+| Sneip    | Schnell außer Range vom Gegner bringen. Decken mit anderen Einheiten. Wenn mehrere, Assault-Taktik |
+| Hoppel   | Spontane Eingreiftruppe. Bietet sich für Hit and Run an |
+| Wolli    | Nah zum Gegner, Angriffsfläche bieten, schwache truppen mit körper shielden |
+| Haley    | Hinter Wollis in zweiter Reihe platzieren oder hinter Bellie. Wenn Czaremir weniger als 5 Leben hat sofort zu Czaremir |
+| Buffy    | In die Nähe von Sneip stellen. Alternativ in zweite Reihe |
+| Mampfred | Variabel in Verteidigung und Angriff einsetzbar. Soll bei 2 verbleibenden Leben evaluieren, ob heilen notwendig ist. Wenn ja, soll Mampfred sofort zum nächsten Grasbüschel | 
+| Spot     | SOFORT ALLE AUF DEN BERG! (Anderweitig Nutzlos, kombinieren mit Sneips in Ecken um Fett weit zu schießen)  |
+| Chilly   | Auf Feld in Reichweite mit geringem Schaden gehen (idealerweise 1). 
+| Killy    | Wenn Killy gerade erst entstanden ist, dann schießt Killy und rennt weg. Wenn Bummz vorhanden, gehe in Attackrange und greiße Bummz an. Priorität hat Bummz mit den meisten Gegenern und wenigsten Freunden in der Nähe |
 | Czaremir | Offensiv stark mit range boost, sofort zurückziehen wenn Kill nächste Runde möglich wäre |
-| Bummz | Weit weg von friendlys. Notfalls direkt neben den Gegner Stellen. Im Endgame auf Range 1 Units zulaufen |
-| Link | Idealerweise alle Clustern, Mittiger Link macht am meisten Damage. Freien Weg für Schussbahn einplanen (evtl. Special Tactic für Link Map)|
-| Fluffy | |
+| Bummz    | Weit weg von friendlys. Notfalls direkt neben den Gegner Stellen. Im Endgame auf Range 1 Units zulaufen |
+| Link     | Idealerweise alle Clustern, Mittiger Link macht am meisten Damage. Freien Weg für Schussbahn einplanen (evtl. Special Tactic für Link Map) |
+| Fluffy   | Nur für eine Karte bis jetzt. Hit and Run auf unzugänglichen Feldern. Soll außerhalb von Sneips Range Runde beenden |
 
 
 
@@ -85,7 +90,9 @@ Dritte Zeile Operation(en) zum erhalten der Werte
 - priority: Spielerinterner Zugablauf
 
 Sonderfälle:
-- Figur präferiert Zugvariante 5: A/M = 0 & alte Position = neue Position
+- Figur präferiert Zugvariante 5: Bit nach A/M = 1 & alte Position = neue Position
+- Figur präferiert Zugvariante 3: A/M = 1 & alte Position = neue Position
+- Figur präferiert Zugvariante 4: A/M = 0 & alte Position = neue Position
 
 Liste mit uint wird nach Vergleich des letzten Bytes (Big-Endian Verarbeitung) sortiert (priority1 < priority2 < priority3 usw.)
 
