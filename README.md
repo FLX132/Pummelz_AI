@@ -70,7 +70,7 @@ Töten > Damage
 
 # Gesamtkonzept
 Reihenfolge der Initialisierung der Felder
-![Alt-Text](/images/Unbenannt.jpg)
+![Alt-Text](/images/Unbenannt.png)
 
 # Implementierung
 ## Spielfeld verarbeiten
