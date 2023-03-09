@@ -69,15 +69,8 @@ Töten > Damage
 | Fluffy   | Nur für eine Karte bis jetzt. Hit and Run auf unzugänglichen Feldern. Soll außerhalb von Sneips Range Runde beenden |
 
 # Gesamtkonzept
-|   |   |   |   |   |   |   |   |
-|---|---|---|---|---|---|---|---|
-|   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |   |
+Reihenfolge der Initialisierung der Felder
+![Alt-Text](C:/Users/smart/Pictures/Unbenannt.jpg)
 
 # Implementierung
 ## Spielfeld verarbeiten
